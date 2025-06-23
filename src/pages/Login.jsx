@@ -188,11 +188,11 @@ const Login = () => {
         <div className='flex h-screen'>
             <div className='hidden md:flex w-3/4 flex-col items-center justify-center bg-gray-100 relative p-10'>
                 <img src={loginImage} alt="Login" className="w-[70%] h-screen object-contain" />
-                <div className="absolute top-10 left-10 text-2xl font-bold text-purple-700">Skylabs</div>
+                <div className="absolute top-10 left-10 text-2xl font-bold text-purple-700">J_AI</div>
             </div>
 
             <div className='w-full md:w-1/3 flex flex-col justify-center p-10'>
-                <h2 className='text-2xl font-semibold mb-2'>Welcome to Skylabs! 👋🏻</h2>
+                <h2 className='text-2xl font-semibold mb-2'>Welcome to J_AI! 👋🏻</h2>
                 <p className='mb-6 text-white-300'>Please sign in to continue</p>
 
                 <form className="space-y-5" onSubmit={handleSubmit}>
